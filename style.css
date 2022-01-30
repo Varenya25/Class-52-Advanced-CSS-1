@@ -1,0 +1,42 @@
+h1 {
+    color : rgba(0, 38, 255, 0.384)
+}
+/**{
+    border : solid
+}
+*/
+.header{
+         background-color : rgb(255, 238, 0);
+         display : flex;
+         justify-content : space-between;
+}
+.grid{
+       display : flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+}
+
+h1 {
+     padding-left: 40px;
+}
+
+.menu{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.menu a{
+     padding-left: 10px;
+}
+.game{
+    position: relative;
+}
+.game p{
+    position : absolute;
+    top :25%;
+    bottom :50%;
+    transform: translate(+7%, +25%);
+    opacity: 0;
+}
+.game :hover p{
+    opacity: 1;
+}
